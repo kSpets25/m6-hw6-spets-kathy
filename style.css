@@ -1,0 +1,111 @@
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    min-height: 100vh;
+   
+}
+
+header {
+    display: flex;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.name {
+    margin-right: auto;
+    color: white;
+    background-color: #006989;
+    padding: 5px;
+}
+
+hr {
+    margin: 0;  
+}
+
+nav ul li { 
+    display: inline-flex;
+    font-size: 18px; 
+    padding: 5px;
+    padding-top: 20px;  
+}
+
+a {
+    color: #006989;
+}
+ 
+a:link {
+    color: #006989;
+}
+
+a:hover {
+    color: black;
+}
+
+main {
+    display: flex;
+   
+}   
+
+main, header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.catPic {
+    height: 40vh;
+    padding: 10px;   
+}
+
+article{
+    background-image: url(images/about-subtlepattern.png);
+}
+
+.container1 {
+    display: flex;
+}
+
+.mainInfo {
+    display: flex;
+    align-content: flex-start;  
+}
+
+p {
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+} 
+
+main h2 {
+    color: #006989;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic; 
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.connect {
+    padding-left: 40px;   
+}
+
+.socialLinks{
+    display: flex;
+    list-style-type: none;     
+}
+
+ul li {
+    padding-left: 3px;  
+}
+
+h3 {
+    color: white;
+}
+ 
+footer {
+    background-color:#006989;
+    padding:2px 0;
+    text-align: center;
+}
