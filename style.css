@@ -3,7 +3,6 @@ body {
     margin: 0;
     background-color: whitesmoke;
     min-height: 100vh;
-   
 }
 
 header {
@@ -83,11 +82,11 @@ main h2 {
 }
 
 .socialLinks{
-    display: flex;
-    list-style-type: none;     
+    display: flex;  
 }
 
 ul li {
+    display: flex;
     padding-left: 3px;  
 }
 
